@@ -4,7 +4,7 @@
 }
 
 .card{
-  margin:2rem;
+  margin:2rem auto 2rem;
 }
 
 #main{
@@ -23,4 +23,9 @@
 
 #h3{
   font-size: 2rem;
+}
+
+#url{
+  height: 286px;
+
 }
