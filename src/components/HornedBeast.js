@@ -5,8 +5,8 @@ import Card from 'react-bootstrap/Card';
 
 class HornedBeast extends Component {
 
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     this.state = {
       votes: 0,
     }

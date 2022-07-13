@@ -1,7 +1,7 @@
 
 ## Lab02 Features
 
-### Number and name of feature: Feature #1 - Display Images
+### Feature #1 - Display Images
 
 Estimate of time needed to complete: 1.5 hours
 
@@ -11,7 +11,7 @@ Finish time: 10:00pm
 
 Actual time needed to complete: 1 hour, 45 minutes
 
-### Number and name of feature: Feature #2 - Allow users to vote for their favorite beast
+### Feature #2 - Allow users to vote for their favorite beast
 
 Estimate of time needed to complete: 1.5 hours
 
@@ -21,7 +21,7 @@ Finish time: 11:15pm
 
 Actual time needed to complete: 45 minutes
 
-### Number and name of feature: Feature #3 - Bootstrap
+### Feature #3 - Bootstrap
 
 Estimate of time needed to complete: 1 hour
 
@@ -30,6 +30,18 @@ Start time: 11:25pm
 Finish time: 12:15am
 
 Actual time needed to complete: 50 minutes
+
+## Lab03 Features
+
+### Feature #1 - Display a Modal
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 6:15pm
+
+Finish time: 
+
+Actual time needed to complete: 
 
 
 *Attributions*
