@@ -10,9 +10,9 @@ Estimate of time needed to complete: 1.5 hours
 
 Start time: 8:15pm
 
-Finish time: _____
+Finish time: 9:40pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hour, 25 minutes
 
 ### Number and name of feature: Feature #2 - Allow users to vote for their favorite beast
 
