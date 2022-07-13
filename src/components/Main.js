@@ -1,8 +1,7 @@
 import { Component } from 'react';
 import list from '../data.json';
-import BeastList from './BeastList.js';
+import HornedBeast from './HornedBeast.js';
 // import Results from './Results.js';
-
 
 class Main extends Component {
   constructor() {
@@ -22,7 +21,7 @@ class Main extends Component {
     return(
       <div id='main'>
         {/* <Results currentBeast={this.state.currentBeast}/> */}
-        <BeastList beasts={this.state.beastList} selectBeast={this.selectCurrentBeast} />
+        <HornedBeast beasts={this.state.beastList} selectBeast={this.selectCurrentBeast} />
       </div>
     )
   }
