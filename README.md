@@ -10,15 +10,15 @@ Estimate of time needed to complete: 1.5 hours
 
 Start time: 8:15pm
 
-Finish time: 9:40pm
+Finish time: 10:00pm
 
-Actual time needed to complete: 1 hour, 25 minutes
+Actual time needed to complete: 1 hour, 45 minutes
 
 ### Number and name of feature: Feature #2 - Allow users to vote for their favorite beast
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1.5 hours
 
-Start time: _____
+Start time: 10:30pm
 
 Finish time: _____
 
