@@ -14,7 +14,6 @@ class HornedBeast extends Component {
   handleClick = (e) => {
     this.setState({votes: this.state.votes+1});
     console.log(this,this.state.votes);
-
   }
 
   render() {

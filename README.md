@@ -1,6 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Lab02 Features
 
@@ -41,4 +38,5 @@ Coding help and inspirations:
 
 Jacob Knaack, demo code
 Michael Pace, HornedBeasts github repo
+
 

@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import Alert from 'react-bootstrap/Alert';
 
+
 class Header extends Component {
   render(){
     return(
@@ -11,4 +12,5 @@ class Header extends Component {
     )     
   }
 }
+
 export default Header;
