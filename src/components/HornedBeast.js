@@ -1,5 +1,6 @@
 import { Component } from 'react';
-// import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 class HornedBeast extends Component {
 
@@ -18,13 +19,16 @@ class HornedBeast extends Component {
 
   render() {
     return(
-    <div id="beast-list">
-      <h3>{this.props.title}</h3>
-      <img alt={this.props.title} title={this.props.title} height='200' width='200' src={this.props.image_url} onClick={this.handleClick}/> 
-      <p>{this.props.description}</p>
-      <p>&hearts; = {this.state.votes}</p>
-    </div>
-    )
+      <Card style={{ width: '18rem'}}>
+        <Card.Img variant="top" src={this.props.image_url} />
+        <Card.Body>
+          <Card.Title>{this.props.title}</Card.Title>
+          <Card.Text>{this.props.description}</Card.Text>
+          <Card.Text>Current Votes: {this.state.votes}</Card.Text>
+          <Button variant="primary" onClick={this.handleClick}>&hearts; Vote for this Beast</Button>
+        </Card.Body>
+      </Card>
+    );
   }
 }
 

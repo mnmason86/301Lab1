@@ -3,7 +3,7 @@ import { Component } from 'react';
 class Footer extends Component {
   render(){
     return(
-      <p>Author: Mandy Mason</p>
+      <p id="footer">Author: Mandy Mason</p>
     )
   }
 }
