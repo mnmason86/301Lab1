@@ -9,7 +9,7 @@ class Main extends Component {
     return(
       <Container fluid id='main'>
         <Row sm={1} md={2} lg={3}>
-            {this.props.beastList.map(beast => (            
+            {this.props.list.map(beast => (            
             <Col >
               <HornedBeast
                 title={beast.title}

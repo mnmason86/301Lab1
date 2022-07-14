@@ -43,6 +43,18 @@ Finish time: 9:12pm
 
 Actual time needed to complete: 3 hours
 
+## Lab04 Features
+
+### Feature #1 - Filter by Number of Horns
+
+Estimate of time needed to complete: 1.5 hours
+
+Start time: 6:30pm
+
+Finish time: 7:30pm
+
+Actual time needed to complete: 1 hour
+
 
 *Attributions*
 

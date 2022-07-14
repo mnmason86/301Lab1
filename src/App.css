@@ -9,7 +9,6 @@
 
 #main{
  display: inline-block;
-
 }
 
 #footer{
@@ -19,6 +18,7 @@
 #h1{
   font-size: 3rem;
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 #h3{
@@ -27,5 +27,17 @@
 
 #url{
   height: 286px;
+}
 
+form{
+  text-align: center;
+  margin: 2rem 25% 2rem;
+  background-color: aliceblue;
+  padding: 2rem;
+  border-radius: .25rem;
+}
+
+#form-label{
+  font-size: 24px;
+  margin-bottom: 2rem;
 }
