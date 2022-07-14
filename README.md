@@ -35,7 +35,7 @@ Actual time needed to complete: 50 minutes
 
 ### Feature #1 - Display a Modal
 
-Estimate of time needed to complete: 1 hour
+Estimate of time needed to complete: 1.5 hours
 
 Start time: 6:15pm
 

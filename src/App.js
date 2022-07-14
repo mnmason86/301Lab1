@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import Main from './components/Main.js';
-import SelectedBeast from '.components/SelectedBeast.js';
+import SelectedBeast from './components/SelectedBeast.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import list from './data.json';
 
@@ -20,8 +20,10 @@ class App extends React.Component{
 
   handleShowModal = (beastName) => {
     const selectedBeast = list.find(beast => beast.title === beastName);
-    this.setState({ showModal: true, selectedBeast})
+    this.setState({showModal: true, selectedBeast: selectedBeast});
+    console.log(selectedBeast.description);
   };
+
 
   handleExitModal = () => {
     this.setState({showModal: false});
@@ -37,7 +39,7 @@ class App extends React.Component{
         />
         <SelectedBeast 
           show = {this.state.showModal}
-          handleExit = {this.state.handleExitModal}
+          handleExit = {this.handleExitModal}
           selectedBeast = {this.state.selectedBeast}
         />
         <Footer />
