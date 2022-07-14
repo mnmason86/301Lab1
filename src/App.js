@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import Main from './components/Main.js';
+import HornForm from './components/HornForm';
 import SelectedBeast from './components/SelectedBeast.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import list from './data.json';
@@ -12,7 +13,7 @@ class App extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
-      beastList: list,
+      list: list,
       selectedBeast: {},
       showModal: false,
     }
@@ -24,17 +25,26 @@ class App extends React.Component{
     console.log(selectedBeast.description);
   };
 
-
   handleExitModal = () => {
     this.setState({showModal: false});
   };
+
+  updateBeastEmporium = (filterList) => {
+    this.setState({list: filterList});
+  }
+
+  hornNumber = (e) => {
+    e.preventDefault();
+    this.setState({ Horns: e.target.value});
+  }
   
   render() {
     return (
       <div className="App">
         <Header />
+        <HornForm list={list} updateBeastEmporium={this.updateBeastEmporium} />
         <Main 
-          beastList={this.state.beastList}
+          list={this.state.list}
           handleShowModal={this.handleShowModal}
         />
         <SelectedBeast 
