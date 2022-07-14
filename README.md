@@ -39,9 +39,9 @@ Estimate of time needed to complete: 1.5 hours
 
 Start time: 6:15pm
 
-Finish time: 
+Finish time: 9:12pm
 
-Actual time needed to complete: 
+Actual time needed to complete: 3 hours
 
 
 *Attributions*
@@ -49,6 +49,9 @@ Actual time needed to complete:
 Coding help and inspirations:
 
 Jacob Knaack, demo code
+Ben Mills, debugging help
 Michael Pace, HornedBeasts github repo
+Sarah Teklemariam, HornedBeasts github repo
+
 
 
